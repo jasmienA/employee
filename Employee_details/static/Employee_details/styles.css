@@ -1,0 +1,168 @@
+body {
+
+    font-family: sans-serif;
+    margin: 0;
+    background-color: rgb(223, 192, 243);
+}
+
+form{
+
+    margin: 3rem auto;
+    width: 90%;
+    max-width: 40rem;
+   padding: 1rem;
+    border-radius: 12px;
+    background-color: #dddddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.26);
+}
+
+button{
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    background-color: #1f0050;
+    color: white;
+    border: 1px solid #1f0050;
+
+}
+
+
+button:hover,
+button:active{
+    background-color: #320777;
+    border-color: #320777;
+}
+
+
+.form-control{
+    margin-bottom: 1rem;
+    padding-left: 13rem;
+  
+
+    
+
+    
+}
+
+.form-control input{
+ font: inherit;
+ padding: 0.25rem;
+ border-radius: 1px solid #ccc;
+ display: block;
+ width: 10rem;
+ 
+
+}
+
+.form-control input:focus{
+    border-color:#1f0050;
+    outline: none;
+    background-color: #f4eeff;
+}
+
+.form-control label{
+    font-weight: bold;
+    display: block;
+  
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    border-radius: 12px;
+    margin-left: 16rem;
+
+  }
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+th{
+    background-color: #64419b;
+
+}
+
+
+  
+.button{
+    cursor: pointer;
+    padding: 0.3rem 1.5rem;
+    border-radius: 6px;
+    background-color: #1f0050;
+    color: white;
+    border: 1px solid #1f0050;
+    padding-top: 2px;    padding-bottom: 2px;
+    text-align: center;
+    font: inherit;
+    text-decoration: none;
+
+}
+
+
+
+.delete {
+    margin: 0 ;
+    padding: 0 ;
+    background-color:#ccc ;
+    box-shadow: none;
+    width: 90%;
+    border-radius: 0px;
+  
+
+}
+
+.form-control1 input{
+padding: 0.25rem;
+    border-radius: 1px solid #ccc;
+    display: block;
+
+    width: 120px;
+    display: inline-block; 
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    text-align: center;
+    
+
+
+
+    
+    
+    
+   
+   }
+
+.form-control1{
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    font-weight: bold;
+    text-align: center;
+    
+  
+   /* margin: 4rem auto;
+    margin-bottom: 2rem;
+    width: 90%;
+    max-width: 40rem;
+    padding-left: 2rem;
+    border-radius: 12px;
+    font-weight: bold;
+    display: inline;
+   */
+    
+
+   
+
+    
+
+    
+}

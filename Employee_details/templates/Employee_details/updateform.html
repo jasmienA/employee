@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit/update</title>
+    <link rel="stylesheet" href ="{% static "Employee_details/styles.css" %}">
+
+</head>
+<body>
+    <div class = "form-control1"> 
+    <form action = "" method ="POST"> 
+    <h3> Update employee information : </h3>
+    <p></p>
+
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type = "submit" class = "button" value = "Update" onclick="return confirm('Employee information updated')"/>    
+    <a href = "{% url 'Home' %}" class="button">Back to home</a>
+
+   
+    </form>
+
+    
+    </div>
+</body>
+</html>

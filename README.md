@@ -24,3 +24,4 @@ manage.py runserver
 
 live project link :http://jasmiena.pythonanywhere.com/
 
+![CRUD](https://user-images.githubusercontent.com/91527488/136338463-08ef74bc-765b-4ef0-8cab-933244911a31.png)
